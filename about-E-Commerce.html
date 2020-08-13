@@ -1,0 +1,720 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <!-- navbar-->
+
+    <nav class="navbar navbar-expand-lg" id="main-nav">
+        <div class="container">
+            <a href="index-E-Commerce.html" class="navbar-brand">
+                <img src="img/logo.png" alt="Fashion logo" class="d-inline-block img-fluid pl-2">
+            </a>
+            <div class="navbar-buttons">
+                <button type="button" data-toggle="modal" data-target="#cartModal" class="mx-1 btn btn-outline-primary rounded navbar-toggler px-2"><i class="fa fa-shopping-cart"></i></button>
+                <button type="button" class="btn  btn-outline-primary rounded px-2 navbar-toggler  mx-1" data-toggle="modal" data-target="#loginModal">
+                    <i class="fas fa-user "></i>
+                </button>
+                <button class="navbar-toggler btn  btn-outline-primary rounded px-2 mx-1" data-toggle="collapse" data-target="#navbarCollapse">
+                    <i class="fa fa-align-justify"></i>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="index-E-Commerce.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown menu-large">
+                        <a href="#" data-toggle="dropdown" data-hover="dropdown" data-delay="200" class="dropdown-toggle nav-link">Shop<b class="caret"></b></a>
+                        <ul class="dropdown-menu megamenu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <h5>Men</h5>
+                                        <ul class="list-unstyled mb-3">
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">T-shirts</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Shoes</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Jeans</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Accessories</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <h5>Women</h5>
+                                        <ul class="list-unstyled mb-3">
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Outfit</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Shoes</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Jeans</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Sandal</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Trouser</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <h5>Kids</h5>
+                                        <ul class="list-unstyled mb-3">
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Shoes</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">T-Shirt</a></li>
+                                            <li class="nav-item"><a href="shop-E-Commerce.html" class="nav-link">Sunglass</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="about-E-Commerce.html" class="nav-link">About</a></li>
+                </ul>
+                <form role="search" class="ml-auto p-2 mb-2 mb-lg-0">
+                    <div class="input-group">
+                        <input type="text" placeholder="Search" class="form-control">
+                        <div class="input-group-append">
+                            <button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="navbar-buttons d-flex justify-content-end">
+                    <!-- /.nav-collapse-->
+                    <div class="navbar-collapse d-none d-lg-block">
+                        <button type="button" data-toggle="modal" data-target="#cartModal" class="btn btn-primary rounded navbar-btn"><i class="fa fa-shopping-cart"></i></button>
+                        <button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-primary rounded px-2 navbar-btn">
+                            <i class="fas fa-user "></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center text-info">
+                    <h1>About Us</h1>
+                    <p>En promptes loquaces troupeau de faudrait bouleaux oh</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Page Header Section Ends -->
+    <!-- About Section -->
+    <section id="about" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-6">
+                    <h1 class="text-center text-md-left">What We Do</h1>
+                    <p class="text-justify">
+                        Epaissies militaire en dissipait certitude le descendit perimetre te un.
+                        Promene silence maisons fausser un va livides douleur de. Sortaient surveille
+                        annoncait regardent ii en gaillards. Pu groupes je egorger etriers en tu. Loups
+                        sueur luire roidi coeur ma ai tenez. Gouverneur hurlements une ifs moi simplement.
+                        Leurs noces de eu ouvre. Allumait en derriere philippe ne. Nos simplement singuliers
+                        bon ton feu clairieres entrainait fraternite approchait.
+                        Mes ete pressentit nos renferment condamnait. Ai et conflit du caillou ou abattit.
+                        Saules les venait eau car crosse que. Preferait detourner descendit en la expliquer.
+                        Elan vive nez ici nous. Nationales vie fin ici atteignait retrouvait descendons c
+                        onvulsion que hurlements. Noir je mess ciel nous qu tu dieu. Amour coeur pitie eut
+                        dut eau nos subir jeune.
+                    </p>
+                    <p class="d-none d-lg-flex text-justify">
+                        Promene silence maisons fausser un va livides douleur de. Sortaient surveille
+                        annoncait regardent ii en gaillards. Pu groupes je egorger etriers en tu. Loups
+                        sueur luire roidi coeur ma ai tenez. Gouverneur hurlements une ifs moi simplement.
+                        Leurs noces de eu ouvre. Allumait en derriere philippe ne. Nos simplement singuliers
+                        bon ton feu clairieres entrainait fraternite approchait.
+                        Promene silence maisons fausser un va livides douleur de. Sortaient surveille
+                        annoncait regardent ii en gaillards. Pu groupes je egorger etriers en tu. Loups
+                        sueur luire roidi coeur ma ai tenez. Gouverneur hurlements une ifs moi simplement.
+                        Leurs noces de eu ouvre. Allumait en derriere philippe ne. Nos simplement singuliers
+                        bon ton feu clairieres entrainait fraternite approchait.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <img src="img/image1.jpg" alt="" class="img-fluid rounded-circle d-none d-md-block about-img" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Provider -->
+    <section id="provider" class="pt-5">
+        <div class="container">
+            <h1 class="text-primary text-center font-weight-bold">We Provide</h1>
+            <p class="text-primary text-center">We proudly provide products from most of the top brands all around the world</p>
+            <hr class="bg-primary" />
+        </div>
+        <div class="container text-center">
+            <div id="carouselProvider" class="carousel slide" data-ride="carousel" data-interval="2000" ">
+                <div class="carousel-inner carousel-inner-provider row mx-auto row h-100" role="listbox">
+                    <div class="carousel-item carousel-item-provider col-md-3 active align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Adidas.png" alt="slide 1">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto d-flex" src="img/logo/Armani.png" alt="slide 2">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Gucci.png" alt="slide 3">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Hermes.png" alt="slide 4">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Louis.png" alt="slide 5">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Nike.png" alt="slide 6">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Prada.png" alt="slide 7">
+                    </div>
+                    <div class="carousel-item carousel-item-provider col-md-3  align-self-center p-5">
+                        <img class="img-fluid mx-auto" src="img/logo/Zara.png" alt="slide 8">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--  Blog With Image Section -->
+    <section id="blog" class="py-5">
+
+        <div class="container">
+            <h1 class="text-primary text-center">Our Blogs</h1>
+            <hr class="bg-primary" />
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card my-2">
+                        <img src="https://source.unsplash.com/random/300x200" alt="" class="img-fluid card-img-top" />
+                        <div class="card-body blog-background">
+                            <h4 class="card-title"><a href="#">Blog Post One</a></h4>
+                            <small class="text-muted">Written by Jeff on 05/20</small>
+                            <hr />
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Nulla facilis, sequi excepturi, quisquam, dignissimos
+                                molestiae dicta dolore dolores quas vel sunt placeat tempora expedita suscipit.
+                                Magni vel iusto mollitia exercitationem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 blockquote-background">
+                        <blockquote class="card-blockquote card-body">
+                            <p class="font-italic">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident amet tenetur vel quam atque est?
+                            </p>
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">Someone Famous in <cite title="Source Title">Source Title</cite></small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-2">
+                        <img src="https://source.unsplash.com/random/301x200" alt="" class="img-fluid card-img-top" />
+                        <div class="card-body">
+                            <h4 class="card-title"><a href="#">Blog Post Two</a></h4>
+                            <small class="text-muted">Written by Karren on 05/22</small>
+                            <hr />
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Nulla facilis, sequi excepturi, quisquam, dignissimos
+                                molestiae dicta dolore dolores quas vel sunt placeat tempora expedita suscipit.
+                                Magni vel iusto mollitia exercitationem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 bg-primary text-white">
+                        <blockquote class="card-blockquote card-body">
+                            <p class="font-italic">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident amet tenetur vel quam atque est?
+                            </p>
+                            <footer class="blockquote-footer">
+                                <small class="text-white">Someone Famous in <cite title="Source Title">Source Title</cite></small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-2">
+                        <img src="https://source.unsplash.com/random/302x200" alt="" class="img-fluid card-img-top" />
+                        <div class="card-body blog-background">
+                            <h4 class="card-title"><a href="#">Blog Post Three</a></h4>
+                            <small class="text-muted">Written by Harry on 05/22</small>
+                            <hr />
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Nulla facilis, sequi excepturi, quisquam, dignissimos
+                                molestiae dicta dolore dolores quas vel sunt placeat tempora expedita suscipit.
+                                Magni vel iusto mollitia exercitationem.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-0 mb-md-3 blockquote-background">
+                        <blockquote class="card-blockquote card-body">
+                            <p class="font-italic">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident amet tenetur vel quam atque est?
+                            </p>
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">Someone Famous in <cite title="Source Title">Source Title</cite></small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Blog with Image Section Ends -->
+    <section id="faq" class="py-3 text-primary">
+        <div class="container">
+            <h1 class="text-center">Frequently Asked Questions</h1>
+            <hr />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion">
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <a href="#collapseOne" data-toggle="collapse" data-parent="accordion">
+                                        Question One
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse">
+                                <div class="card-body text-muted">
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <a href="#collapseTwo" data-toggle="collapse" data-parent="accordion">
+                                        Question Two
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse">
+                                <div class="card-body text-muted">
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <a href="#collapseThree" data-toggle="collapse" data-parent="accordion">
+                                        Question Three
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse">
+                                <div class="card-body text-muted">
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion">
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <a href="#collapseFour" data-toggle="collapse" data-parent="accordion">
+                                        Question Four
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseFour" class="collapse">
+                                <div class="card-body text-muted">
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <a href="#collapseFive" data-toggle="collapse" data-parent="accordion">
+                                        Question Five
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseFive" class="collapse">
+                                <div class="card-body text-muted">
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5 class="mb-0">
+                                    <a href="#collapseSix" data-toggle="collapse" data-parent="accordion">
+                                        Question Six
+                                    </a>
+                                </h5>
+                            </div>
+                            <div id="collapseSix" class="collapse">
+                                <div class="card-body text-muted">
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad.
+                                    kal shararat chilo shoponero rat. sritir akhore ajnoe bohudin por.
+                                    Megh theke uthe elo purnimar chad
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Section Ends -->
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4 py-5 bg-primary">
+
+        <div class="container text-center text-info">
+            <div class="row">
+                <div class="col-md-2 d-none d-lg-block mx-auto align-self-center">
+
+                    <img src="img/logo-white.png" alt="Fashion logo" class="">
+
+                </div>
+
+                <div class="col-md-2 col-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Men</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">T-Shirt</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Shoes</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Jeans</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Sunglasses</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Women</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Outfit</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Jeans</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Hat</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Bagpack</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Trouser</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-4 mx-auto">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Kids</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Pants</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Sandals</a>
+                        </li>
+                        <li>
+                            <a href="shop-E-Commerce.html" class="text-info">Socks</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-4 mx-auto">
+                    <!-- Call to action -->
+                    <ul class="list-unstyled list-inline text-center py-2">
+                        <li class="list-inline-item">
+                            <h5 class="mb-1 text-info">Register for free</h5>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn btn-danger btn-rounded">Sign up!</a>
+                        </li>
+                    </ul>
+                    <!-- Call to action -->
+
+
+
+                    <div class="text-center text-white">
+                        <div class="mb-3">
+                            <span><a href="#" target="_blank"><i class="fab fa-facebook-square fa-2x  px-2 text-white"></i></a></span>
+                            <span><a href="#" target="_blank"><i class="fab fa-linkedin fa-2x  px-2 text-white"></i></a></span>
+                            <span><a href="#" target="_blank"><i class="fab fa-snapchat fa-2x  px-2 text-white"></i></a></span>
+                            <span><a href="#" target="_blank"><i class="fab fa-instagram fa-2x px-2 text-white"></i></a></span>
+                        </div>
+                        <h6 class="pt-2">Copyright &copy; <span id="year"></span> E-Commerce</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends-->
+    <!-- Login Modal -->
+    <section id="login-modal">
+        <div class="modal fade" id="loginModal" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-title text-center">
+                            <h3 class="font-weight-bold">Login</h3>
+                        </div>
+                        <div class="d-flex flex-column text-center">
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email1" placeholder="Your email address...">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block btn-round">Login</button>
+                            </form>
+
+                            <div class="text-center text-muted delimiter">or use a social network</div>
+                            <div class="d-flex justify-content-center social-buttons">
+                                <button type="button" class="btn btn-primary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </button>
+                                <button type="button" class="btn btn-primary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <div class="signup-section">Not a member yet? <a href="#" class="font-weight-bold"> Sign Up</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Login Modal Ends -->
+    <!-- Cart Modal -->
+
+    <section id="cart-modal">
+        <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="container">
+                            <div class="form-title text-center">
+                                <h1 class="font-weight-bold">Your Cart Summary</h1>
+                                <hr class="bg-primary" />
+                            </div>
+                            <div class="row">
+                                <div class="col-12 bg-white rounded p-0 shadow-sm mb-5">
+
+                                    <!-- Shopping cart table -->
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" colspan="2" class="border-0 bg-light">
+                                                        <div class="p-2 px-3 text-uppercase">Product</div>
+                                                    </th>
+                                                    <th scope="col" class="border-0 bg-light">
+                                                        <div class="py-2 text-uppercase">Unit Price</div>
+                                                    </th>
+                                                    <th scope="col" class="border-0 bg-light">
+                                                        <div class="py-2 text-uppercase">Quantity</div>
+                                                    </th>
+                                                    <th scope="col" class="border-0 bg-light">
+                                                        <div class="py-2 text-uppercase">Total Price</div>
+                                                    </th>
+                                                    <th scope="col" class="border-0 bg-light">
+                                                        <div class="py-2 text-uppercase">Remove</div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="">
+                                                    <th scope="row" class="border-0">
+                                                        <img src="img/cap.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                    </th>
+                                                    <td class="border-0 align-middle"><a class="h6" href="item-E-Commerce.html">Men's Gray Cap</a></td>
+                                                    <td class="border-0 align-middle"><strong>$25.00</strong></td>
+                                                    <td class="border-0 align-middle"><strong>2</strong></td>
+                                                    <td class="border-0 align-middle"><strong>$50.00</strong></td>
+                                                    <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" class="border-0">
+                                                        <img src="img/sunglass.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+                                                    </th>
+                                                    <td class="border-0 align-middle"><a class="h6" href="item-E-Commerce.html">Men's Black Sunglass</a></td>
+                                                    <td class="border-0 align-middle"><strong>$70.00</strong></td>
+                                                    <td class="border-0 align-middle"><strong>1</strong></td>
+                                                    <td class="border-0 align-middle"><strong>$70.00</strong></td>
+                                                    <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- End -->
+                                </div>
+                            </div>
+
+                            <div class="row bg-white rounded shadow-sm">
+                                <div class="col-lg-6 p-0">
+                                    <div class="bg-light rounded-pill px-4 py-3  text-uppercase font-weight-bold">Coupon code</div>
+                                    <div class="p-4">
+                                        <p class="font-italic">If you have a coupon code, please enter it in the box below</p>
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Coupon" class="form-control">
+                                            <div class="input-group-append">
+                                                <button type="button" class="btn btn-primary"><i class="fas fa-gift"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-light rounded-pill text-uppercase px-4 py-3 font-weight-bold">Instructions for seller</div>
+                                    <div class="p-4">
+                                        <p class="font-italic">If you have some information for the seller you can leave them in the box below</p>
+                                        <textarea name="" cols="30" rows="3" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 p-0">
+                                    <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Order summary </div>
+                                    <div class="p-4">
+                                        <p class="font-italic mb-4">Shipping and additional costs are calculated based on the total cost of products.</p>
+                                        <ul class="list-unstyled mb-4">
+                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong>$120.00</strong></li>
+                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping and handling</strong><strong>$0.00</strong></li>
+                                            <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tax (13%)</strong><strong>$15.60</strong></li>
+                                            <li class="d-flex justify-content-between py-3 border-bottom">
+                                                <strong class="text-muted">Total</strong>
+                                                <h5 class="font-weight-bold">$135.60</h5>
+                                            </li>
+                                        </ul><a href="#" class="btn btn-primary rounded-pill py-2 btn-block">Procceed to checkout</a>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal Ends -->
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        //Configure Provide Slider
+        $('#carouselProvider').on('slide.bs.carousel', function (e) {
+
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 4;
+            var totalItems = $('.carousel-item-provider').length;
+
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+                var it = itemsPerSlide - (totalItems - idx);
+                for (var i = 0; i < it; i++) {
+                    // append slides to end
+                    if (e.direction == "left") {
+                        $('.carousel-item-provider').eq(i).appendTo('.carousel-inner-provider');
+                    }
+                    else {
+                        $('.carousel-item-provider').eq(0).appendTo('.carousel-inner-provider');
+                    }
+                }
+            }
+        });
+
+
+    </script>
+</body>
+</html>
